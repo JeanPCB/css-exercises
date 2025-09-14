@@ -3,6 +3,10 @@
    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
+.adjust-fs {
+   font-size: 24px;
+}
+
 #second-el {
    color: #00f;
    font-size: 36px;
