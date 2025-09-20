@@ -23,9 +23,10 @@ ul {
   list-style-type: none;
 }
 
-a {
+a,
+a:visited {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.7)
+  color: rgba(0, 0, 0, 0.6)
 }
 
 a:hover {
@@ -48,4 +49,26 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer {
+  background-color: #eee;
+  margin-left: 0;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header ul,
+.footer ul {
+  display: flex;
+}
+
+.header a,
+.footer a {
+  padding: 0 10px;
 }
