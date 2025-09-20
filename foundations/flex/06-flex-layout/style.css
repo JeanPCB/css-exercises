@@ -46,6 +46,11 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px 15px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 input {
