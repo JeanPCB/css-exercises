@@ -19,6 +19,10 @@ body {
   flex-direction: column;
 }
 
+ul > li {
+  list-style-type: none;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -39,12 +43,25 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
+  font-size: 24px;
+}
+
+.sidebar li {
+  margin-bottom: 16px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .content-container {
-  flex: 1;
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px;
 }
 
 .card {
@@ -52,6 +69,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
+  margin: 10px;
 }
 
 .footer {
